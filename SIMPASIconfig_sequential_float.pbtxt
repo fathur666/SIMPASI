@@ -1,0 +1,17 @@
+activity_feature_groups {
+  features {
+    feature_name: "resep_context_id"
+    feature_type: FLOAT
+    vocab_size: 77
+    embedding_dim: 8
+    feature_length: 2
+  }
+  encoder_type: CNN
+}
+label_feature {
+  feature_name: "resep_label_id"
+  feature_type: INT
+  vocab_size: 77
+  embedding_dim: 8
+  feature_length: 1
+}
